@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<title>Decifrar Texto</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<head>
+			<img src="images/logo-alura.png" alt="logo alura apenas com a letra a" class="logo">
+		</head>
+		<main>
+			<section class="criptografar">
+				<textarea class="input-texto" cols="40" rows="6" placeholder="Descreva seu texto aqui..."></textarea>
+				<h6 class="informacao">Apenas letra maiuscúlas e sem acento.</h6>
+				<div class="botoes">
+					<button class="encriptar" onclick="botaoEncriptar()">Criptografar</button>
+					<button class="desencriptar" onclick="botaoDescriptar()">Descriptografar</button>	
+				</div>
+			</section>
+
+			
+
+			<section class="descriptografar">	
+				<textarea class="output-texto" cols="18" rows="8" readonly placeholder='Nenhuma mensagem encontrada...'></textarea>
+				<div class="botaoCopiar">
+					<button class="copiar" onclick="botaoCopiar()">Copiar</button>
+				</div>
+			</section>
+
+		</main>
+
+	</body>
+
+	<script src="js/main.js"> </script>
+
+	
+</html>

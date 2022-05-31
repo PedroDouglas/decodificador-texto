@@ -1,0 +1,35 @@
+.titulo-principal{
+	text-align: center;
+	font-size: 2em;
+	margin:  0 0 1em;
+}
+
+main{
+	display: flex;
+	justify-content: space-around;
+}
+
+label{
+	display: block;
+}
+
+
+.resultado{
+	
+}
+
+.botao-cript,.botao-descript {
+	display: block;
+}
+
+
+footer{
+	position: absolute;
+    bottom: 0;
+    background-color: #CCCCCC;
+    color: #000;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+}
