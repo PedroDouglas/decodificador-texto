@@ -18,4 +18,6 @@ um decodificador e codificador de texto em Javascript.
    e a pessoa usuária deve poder escolher entre as duas opções O resultado deve ser exibido na tela.
    
    
-### ACESSAR O PROJETO VIA WERB :globe_with_meridians:
+### ACESSAR O PROJETO VIA WEB :globe_with_meridians:
+
+https://pedrodouglas.github.io/decodificador-texto/
