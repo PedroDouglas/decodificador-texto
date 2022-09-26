@@ -7,7 +7,6 @@ function botaoEncriptar() {
     outputTexto.style.backgroundImage="none";
 
 }
-
 function botaoDescriptar(){
 	outputTexto.style.backgroundImage="none";
 
